@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #FAFAFA;
+    width: 100vw; /* Ocupa toda a página do navegador altura e largura*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.insta-logo {
+    margin-bottom: 10px;
+}
+
+.Cellphone {
+    width: 356px;
+}
+
+.container-img { 
+    position: relative;
+}
+
+.img-cellphone { 
+    height: 424px;
+    position: absolute;
+    left: 119px;
+    top: 15px;
+    transition: opacity 2s ease-in-out;
+}
+
+.container-itens {
+    width: 270px;
+    margin-left: 35px;
+
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #FFFFFF;
+    padding: 50px 40px 20px 40px;
+}
+
+input {
+    height: 30px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 6px;
+    margin-top: 6px;
+    color: #262626;
+}
+
+button {
+    background: #0095f6;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.Login-facebook {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.Forget-password {
+    color: #0095f6;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid #dbdbdb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link-register { 
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.no-register { 
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.Get-app {
+    margin-top: 15px;
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+
+.container-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* distância do item dentro da div */
+}
+
+.logo-app { 
+    width: 120px;
+}
+
+
+

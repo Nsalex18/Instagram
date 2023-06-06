@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Instagram</title>
+</head>
+<body>
+    
+     <div class="container-img">
+           
+           <img src="../pics/celular.png" class="Cellphone" alt="Cellphone">
+           <img src="../pics/insta - gatinho.png" alt="foto-gatinho" class="img-cellphone" id="img-cat">
+           <img src="../pics/insta - maça.png" alt="foto-maça" class="img-cellphone" id="img-apple">
+
+     </div>
+
+     <div class="container-itens">
+
+        <div class="container-form">
+            <img src="../pics/insta-logo.png" alt="logo-insta" class="insta-logo">
+            <input placeholder="Telefone,nome ou email">
+            <input placeholder="Senha">
+
+            <button>Entar</button>
+
+            <a class="Login-facebook">Entrar com o facebook</a>
+            <a class="Forget-password">Esqueceu a senha?</a>
+
+        </div>
+
+        <div class="container-register">
+
+            <p class="no-register">Não tem conta?</p><a class="link-register">Cadastre-se</a>
+
+        </div>
+
+        <p class="Get-app">Obtenha o aplicativo</p>
+
+        <div class="container-app">
+
+            <img src="../pics/ios.png" class="logo-app" alt="ios-donwload">
+            <img src="../pics/google play.png" class="logo-app" alt="Google-play-donwload">
+
+        </div>
+
+     </div>
+</body>
+
+<script>
+    let image = document.getElementById("img-apple")
+
+    function imgapple () {
+
+        if (image.style.opacity == 0) {
+            image.style.opacity = 1
+        }
+        else {
+            image.style.opacity = 0
+        }
+
+    }
+
+    setInterval(function () {
+        imgapple()
+    }, 4000)
+
+</script>
+
+ <!-- 1 = o que voce quer 
+ 2 == comparação  -->
+
+</html>
